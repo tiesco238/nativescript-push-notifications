@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>561011841512-dq3t180keik991johrvcc4hlb43hp5t7.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.561011841512-dq3t180keik991johrvcc4hlb43hp5t7</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDbhywo4gnKt8_Bcwb7YH0kUXuc9ZAtfS0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>561011841512</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.casengo.native</string>
+	<key>PROJECT_ID</key>
+	<string>thijstest-e11030</string>
+	<key>STORAGE_BUCKET</key>
+	<string>thijstest-e11030.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:561011841512:ios:362f728ce4205f76</string>
+	<key>DATABASE_URL</key>
+	<string>https://thijstest-e11030.firebaseio.com</string>
+</dict>
+</plist>
