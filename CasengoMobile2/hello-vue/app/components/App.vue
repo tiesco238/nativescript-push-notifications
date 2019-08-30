@@ -55,16 +55,16 @@
     },
       created() {
           // // wire up an 'onMessageClicked' callback
-          // inappmessaging.onMessageClicked(message => {
+          inappmessaging.onMessageClicked(message => {
 
-          //     console.log(">> inappmessaging onMessageClicked, campaign: " + message.campaignName + ", with url: " + message.actionURL);
-          //     this.message = `Campaign ${message.campaignName} clicked`;
-          // });
-          // // 👉 .. and for fun, wire an 'onMessageImpression' callback so when know when the message is shown
-          // inappmessaging.onMessageImpression(message => {
-          //     console.log(">> inappmessaging onMessageImpression, campaign: " + message.campaignName);
-          //     this.message = `Campaign ${message.campaignName} seen`;
-          // });
+              console.log(">> inappmessaging onMessageClicked, campaign: " + message.campaignName + ", with url: " + message.actionURL);
+              this.message = `Campaign ${message.campaignName} clicked`;
+          });
+          // 👉 .. and for fun, wire an 'onMessageImpression' callback so when know when the message is shown
+          inappmessaging.onMessageImpression(message => {
+              console.log(">> inappmessaging onMessageImpression, campaign: " + message.campaignName);
+              this.message = `Campaign ${message.campaignName} seen`;
+          });
       },
       computed: {
 
